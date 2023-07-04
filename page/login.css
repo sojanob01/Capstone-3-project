@@ -1,0 +1,23 @@
+.Email-input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: transparent;
+    
+}
+
+
+.Login-Btn{
+    background-color:rgb(253, 253, 253);
+    color: rgb(194, 110, 14);
+}
+.Login-Btn:hover{
+    background-color:rgb(194, 110, 14);
+    color: white;
+}
+
+.Sign-Btn{
+    color:rgb(255, 255, 255);
+}
+
+.Sign-Btn:hover{
+    color: rgb(194, 110, 14);
+}

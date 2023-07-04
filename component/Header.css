@@ -1,0 +1,116 @@
+.Navbar{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.Name-of-logo {
+    color: #ccc;
+    margin-top: 10px;
+    padding-left: 2px;
+    font-size: 20px;
+}
+
+.Header header {
+    box-shadow: 0 .3px #ccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.Menu-bar{
+    font-size: 25px;
+    margin: 20px;
+}
+
+.Profile{
+    color: rgb(194, 110, 14);
+}
+
+.logo {
+    filter: grayscale(50%)
+}
+
+.Home {
+    color: #ccc;
+}
+
+.Home:hover {
+    color: #ffffff;
+}
+
+.Menu {
+    color: #ccc;
+}
+
+.Menu:hover{
+    color: #ffffff;
+}
+
+.About {
+    color: #ccc;
+}
+
+.About:hover{
+    color: #ffffff;
+}
+
+.Contact {
+    color: #ccc;
+}
+
+.Contact:hover{
+    color: #ffffff;
+}
+
+
+.Navbar a.active,
+.Navbar a:hover {
+
+  color: rgb(194, 110, 14);
+}
+
+.Header {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .header-hidden {
+    display: none;
+  }
+
+  .Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .Login{
+    color: rgb(194, 110, 14);
+  }
+
+.Logout {
+   color:  rgb(0, 0, 0);
+}
+
+.Logout:hover{
+    color:  rgb(194, 110, 14);
+    background-color: black;
+}
+
+.New-product:hover{
+    color:  rgb(194, 110, 14);
+    background-color: black;
+}
+
+.Button-bg{
+    margin-top: 7px;
+}
+  
+
+    
+  
+  
+
+
+
+
+  

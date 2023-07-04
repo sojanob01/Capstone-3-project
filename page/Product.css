@@ -1,0 +1,223 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+.AboutUs-BG1 {
+  overflow: hidden;
+  position: absolute;
+  top: 80px;
+  left: 110px;
+  width: 83%;
+  height: 30%;
+  object-fit: cover;
+  box-shadow: 0 0 50px rgba(206, 202, 202, 0.5);
+}
+
+.product-page {
+  height: 100vh;
+  overflow: auto;
+}
+
+
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.header-hidden {
+  transform: translateY(-100%);
+}
+
+
+.Product-Title{
+  font-size: 30px;
+  opacity: 80%;
+  padding-bottom: 35px;
+  padding-top: 10px;
+  margin-top: 2px;
+  color: aliceblue;
+  background-image: url('C:\Users\KhelLoveLeang\OneDrive\Desktop\assets\homebackground.jpg');
+  background-size: cover;
+}
+
+.Product-available {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 55px;
+  overflow: hidden;
+}
+
+.Product-category{
+  font-size: 90px;
+  color: rgb(194, 110, 14);
+}
+
+.category{
+  color: rgb(194, 110, 14);
+  font-size: 1.5rem;
+}
+
+.Product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-container2 {
+  flex: 0 0 calc(25% - 20px); 
+  margin: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.product-container2::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+
+
+
+
+.Product-list > div {
+  max-width: 300px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.Product-list img {
+  width: 160px;
+  height: 300px;
+  margin: 10px;
+  object-fit: cover;
+
+}
+
+.product-title-container {
+  position: relative;
+}
+
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  transition: transform 0.4s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+}
+
+
+
+.button {
+  color: rgb(194, 110, 14);
+}
+
+.button:hover{
+  color: rgb(255, 255, 255);
+}
+
+.product-container {
+
+  transition: background-color 0.3s ease;
+}
+
+
+.product-container2 {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin: 15px;
+  border-radius: 8px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+
+.product-container h2 {
+  margin-bottom: 5px;
+}
+
+.image-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.button1 {
+  position: absolute;
+  left: 190px;
+  top: 580px;
+  width: 30px;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color:rgb(194, 110, 14);
+}
+
+.button1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button2 {
+  position: absolute;
+  right: 190px;
+  top: 580px;
+  width: 30px;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: rgb(194, 110, 14);
+}
+
+.button2:disabled {
+  opacity: 0.1;
+  cursor: not-allowed;
+  
+}
+
+
+

@@ -1,0 +1,67 @@
+.home-container {
+    background-image: url('C:\Users\KhelLoveLeang\OneDrive\Desktop\assets\homebackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+
+.Subtitle {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 13rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    color: rgb(236, 236, 235);
+    padding-top: 20rem;   
+}
+
+.image1{
+    width: 300px;
+    height: 300px;
+    padding-top: 12rem;
+    padding-left: 5rem;
+}
+
+.Buynow {
+
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 14rem;
+    padding-bottom: 2rem;
+    color: rgb(194, 110, 14);
+}
+.Buynow:hover {
+        color: rgb(248, 247, 246);
+    } ;
+
+.embossed-image1 {
+    width: 8rem;
+    height: 95rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+      
+.embossed-image1 .image1 img {
+    cursor: pointer;
+    width: 10rem;
+    height: 30rem;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+      
+.embossed-image1 .image1:hover img {
+    size: 10px;
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px rgba(95, 94, 94, 0.5);   
+}
+
+
+      
